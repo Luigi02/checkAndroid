@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GitHubApp"
+        android:textColor="@color/textColor"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o nome do usuário" />
+
+    <Button
+        android:id="@+id/buttonUserDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Detalhes do Usuário" />
+
+    <Button
+        android:id="@+id/buttonUserRepos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Repositórios" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desenvolvido por SEURM"
+        android:layout_gravity="center" />
+</LinearLayout>
